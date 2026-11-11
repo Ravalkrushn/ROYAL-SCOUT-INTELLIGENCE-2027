@@ -53,3 +53,6 @@ Thumbs.db
 *.zip
 ROYAL_SCOUT_FINAL/
 ROYAL_SCOUT_PHASE_13/
+
+# Local scratch / logs
+deployment error

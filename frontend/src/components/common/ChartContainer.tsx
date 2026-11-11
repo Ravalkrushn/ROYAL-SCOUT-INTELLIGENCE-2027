@@ -48,7 +48,7 @@ export default function ChartContainer({
       {/* Chart Canvas */}
       <div style={{ width: '100%', height: `${height}px` }} className="pt-2">
         <ResponsiveContainer width="100%" height="100%">
-          {children as any}
+          {children as React.ReactElement}
         </ResponsiveContainer>
       </div>
     </div>

@@ -177,7 +177,7 @@ export default function DashboardPage() {
                 <Tooltip
                   contentStyle={{ backgroundColor: '#0E1526', borderColor: '#1E2E4A', borderRadius: '8px', fontSize: '12px' }}
                   itemStyle={{ color: '#FFFFFF' }}
-                  formatter={(val: any) => [`${Number(val).toLocaleString()} balls`, 'Deliveries']}
+                  formatter={(val: unknown) => [`${Number(val).toLocaleString()} balls`, 'Deliveries']}
                 />
               </PieChart>
             </ResponsiveContainer>

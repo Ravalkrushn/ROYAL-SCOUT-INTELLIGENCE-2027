@@ -527,7 +527,7 @@ export function getPlayerProfileById(id: string): IPlayerDetail | null {
   if (!batter && !bowler) return null;
 
   const name = batter?.playerName || bowler?.playerName || '';
-  const role = (batter?.role || bowler?.role || 'BATTER') as any;
+  const role = (batter?.role || bowler?.role || 'BATTER') as PlayerRole;
 
   return {
     player: {

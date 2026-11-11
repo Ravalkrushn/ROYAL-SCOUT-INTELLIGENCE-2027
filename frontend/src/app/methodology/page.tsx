@@ -238,7 +238,7 @@ export default function MethodologyPage() {
         </div>
 
         <p className="leading-relaxed">
-          In strict compliance with the competition's academic and scouting integrity rules, all discrepancies and provisional calculations are documented transparently:
+          In strict compliance with the competition&apos;s academic and scouting integrity rules, all discrepancies and provisional calculations are documented transparently:
         </p>
 
         <ul className="list-disc pl-5 space-y-2 text-amber-200/90">
