@@ -1,0 +1,10 @@
+Area,Assumption_or_Limitation
+Competition Scope,Selected IPL and T20I competitions from 2022 onward.
+Scheduled Overs,120 scheduled balls used as default; revised overs used where available. Shortened innings without reliable revised-overs data may be imperfectly represented.
+D/L Matches,Some D/L matches without reliable revised targets are excluded from chase pressure calculations.
+Bowling Economy,Bowling economy is provisional because all extras have not been reconciled.
+Extras,extras_2_runs interpretation is unresolved; it is not blindly added to official totals.
+Wicket Classification,Bowler-credit wickets use selected dismissal types; all wickets are not credited to bowlers.
+Pressure Thresholds,"Pressure thresholds are heuristic: Low below 35, Medium 35–65, High 65 and above."
+Composite Score,"Weights are project-defined percentile-based scoring choices, not an official cricket-board formula."
+Format Comparison,IPL and T20I performances are combined; competition-specific differences may affect comparisons.

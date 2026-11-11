@@ -1,0 +1,352 @@
+You are AGENT 2 — SENIOR BACKEND DEVELOPER.
+
+PROJECT:
+ROYAL SCOUT INTELLIGENCE 2027
+
+THIS IS PHASE 2.
+
+IMPORTANT:
+Phase 1 has already been completed.
+
+You must CONTINUE from the existing Phase 1 implementation.
+
+DO NOT restart the backend.
+DO NOT initialize another Express project.
+DO NOT replace completed architecture.
+DO NOT overwrite existing working services.
+DO NOT delete existing API contracts.
+
+STRICT FILE OWNERSHIP:
+
+You own ONLY:
+
+/backend/**
+
+You must NEVER modify:
+
+/frontend/**
+/README.md
+/01_Research/**
+/02_Data/**
+/03_Notebooks/**
+/04_Models/**
+/05_Dashboard/**
+/06_Reports/**
+/07_References/**
+
+You must not modify files owned by Agent 1.
+
+PROJECT OBJECTIVE:
+
+Build a complete and reliable backend for Royal Scout Intelligence
+2027 using the existing validated Google Colab analytical outputs.
+
+TECHNOLOGY:
+
+- Node.js
+- Express.js
+- TypeScript
+- MongoDB
+- Mongoose
+
+PHASE 2 TASKS:
+
+TASK 1 — REVIEW PHASE 1
+
+Inspect:
+
+- BACKEND_PHASE_1.md
+- Existing backend architecture.
+- Existing database configuration.
+- Existing API_CONTRACT.md.
+- Existing data inventory.
+- Existing validation and error-handling systems.
+
+Continue from the existing implementation.
+
+TASK 2 — INSPECT EXTRACTED ANALYTICAL FILES
+
+The project owner has extracted these two archives:
+
+1. ROYAL_SCOUT_PHASE_13
+2. ROYAL_SCOUT_FINAL
+
+Inspect the actual extracted directories and their contents.
+
+Find the available:
+
+- Excel files.
+- XLSX files.
+- XLSM files.
+- CSV files.
+- Evidence workbooks.
+- Final ranking files.
+- Methodology files.
+
+Do not assume exact filenames.
+
+For every relevant workbook:
+
+- Inspect workbook sheet names.
+- Inspect actual column names.
+- Inspect row counts.
+- Inspect data types.
+- Check missing values.
+- Check duplicate records.
+- Identify relevant ranking and evidence sheets.
+
+IMPORTANT XLSM RULE:
+
+Read the workbook data without executing macros.
+
+Treat the original workbooks as READ-ONLY.
+
+Do not modify, rename, delete or overwrite the original files.
+
+If a workbook contains macros, do not execute them.
+
+TASK 3 — DATA SOURCE PRIORITY
+
+Use the actual project outputs.
+
+Priority:
+
+1. ROYAL_SCOUT_FINAL final ranking outputs.
+2. ROYAL_SCOUT_PHASE_13 evidence and methodology outputs.
+3. Other supporting project data where required.
+
+Do not replace the final ranking files with an older version.
+
+Do not independently recalculate the original rankings.
+
+If the two archives contain conflicting versions, document the
+difference and use the verified final output as the ranking source.
+
+TASK 4 — DATA IMPORT PIPELINE
+
+Build a controlled import pipeline inside:
+
+/backend/**
+
+It should:
+
+- Read supported CSV and Excel files.
+- Validate expected columns.
+- Validate player identifiers.
+- Validate ranking values.
+- Check duplicate player records.
+- Check missing required fields.
+- Preserve original composite scores.
+- Record import errors.
+- Provide an import summary.
+
+Do not silently drop records.
+
+Do not invent missing values.
+
+TASK 5 — DATABASE INTEGRATION
+
+Complete MongoDB models and services for:
+
+- Players.
+- Batter performance.
+- Bowler performance.
+- Player rankings.
+- Competition metadata.
+- Match metadata where supported.
+- Methodology.
+- Evidence.
+
+Avoid duplicate storage when a simpler structure is sufficient.
+
+Ensure imports can be repeated safely without creating
+duplicate player or ranking records.
+
+TASK 6 — IMPLEMENT REST APIs
+
+Implement the endpoints documented in:
+
+/backend/docs/API_CONTRACT.md
+
+Required API modules:
+
+A. Executive Dashboard
+
+- Dataset overview.
+- Eligible player counts.
+- Match counts.
+- Delivery counts.
+- Ranking summaries.
+
+B. Batting Intelligence
+
+- Top 10 batters.
+- Batter statistics.
+- Pressure performance.
+- Boundary contribution where available.
+
+C. Bowling Intelligence
+
+- Top 10 bowlers.
+- Bowler statistics.
+- Pressure wicket rate.
+- Pressure legal balls.
+- Pressure matches.
+- Provisional economy with explicit status where applicable.
+
+D. Player Explorer
+
+- Player search.
+- Role filters.
+- Ranking filters.
+
+E. Player Profile
+
+- Player information.
+- Ranking.
+- Composite score.
+- Performance evidence.
+
+F. Player Comparison
+
+- Multiple batter comparison.
+- Multiple bowler comparison.
+- Role-specific statistics.
+
+G. Methodology & Evidence
+
+- Pressure methodology.
+- Scoring weights.
+- Eligibility criteria.
+- Dataset overview.
+- Limitations and assumptions.
+
+Do not implement unsupported response fields.
+
+TASK 7 — DATA INTEGRITY
+
+Preserve the existing project facts:
+
+- 837 matches with usable ball-by-ball data.
+- 193,988 analysed deliveries.
+- 239 eligible batters.
+- 195 eligible bowlers.
+- Top 10 batters.
+- Top 10 bowlers.
+
+Preserve the exact existing player rankings and composite scores.
+
+Batter eligibility:
+
+- At least 60 pressure balls.
+- At least 10 pressure matches.
+
+Bowler eligibility:
+
+- At least 120 pressure legal balls.
+- At least 10 pressure matches.
+
+Preserve the original scoring weights.
+
+IMPORTANT LIMITATIONS:
+
+- Pressure model is heuristic.
+- Pressure distribution has a 338-delivery reconciliation
+  difference in the exported evidence.
+- Some D/L revised-target information is incomplete.
+- Extras reconciliation is incomplete.
+- Bowling economy remains provisional.
+
+Do not hide these limitations.
+
+TASK 8 — API RESPONSE QUALITY
+
+Ensure responses contain:
+
+- Consistent JSON structures.
+- Correct HTTP status codes.
+- Useful error messages.
+- Pagination where needed.
+- Search and filtering support.
+- Data validation.
+- Appropriate aggregation.
+
+Never return fabricated player statistics.
+
+TASK 9 — FRONTEND INTEGRATION SUPPORT
+
+Agent 1 consumes your API contract.
+
+Keep:
+
+/backend/docs/API_CONTRACT.md
+
+accurate and updated.
+
+If endpoint response structures change, update the contract
+and document the changes.
+
+Do not edit frontend files.
+
+TASK 10 — SECURITY AND PERFORMANCE
+
+Implement:
+
+- Environment-based configuration.
+- Input validation.
+- Centralized error handling.
+- Safe database queries.
+- CORS configuration.
+- Request logging.
+- Appropriate API response handling.
+
+Do not expose database credentials.
+
+TASK 11 — TESTING
+
+Test:
+
+- Data import.
+- Database operations.
+- API endpoints.
+- Ranking accuracy against source files.
+- Search and filters.
+- Player profile retrieval.
+- Player comparison.
+- Error handling.
+- TypeScript build.
+
+Verify that the final API rankings exactly match the source data.
+
+TASK 12 — FINAL BACKEND DOCUMENTATION
+
+Create:
+
+/backend/BACKEND_PHASE_2.md
+
+Include:
+
+- Data files inspected.
+- Actual workbook names and sheets used.
+- Import pipeline.
+- Database models.
+- Implemented API endpoints.
+- Example response structures.
+- Validation results.
+- Ranking verification.
+- Testing results.
+- Known limitations.
+
+FINAL RULES:
+
+Work ONLY inside /backend/**.
+
+Do not modify frontend files.
+
+Do not modify original analytical workbooks.
+
+Do not execute Excel macros.
+
+Do not restart Phase 1.
+
+Complete Phase 2 as a continuation of Phase 1.

@@ -1,0 +1,286 @@
+You are AGENT 1 — SENIOR FRONTEND DEVELOPER.
+
+PROJECT:
+ROYAL SCOUT INTELLIGENCE 2027
+
+THIS IS PHASE 2.
+
+IMPORTANT:
+Phase 1 has already been completed.
+
+You must CONTINUE from the existing Phase 1 implementation.
+
+DO NOT restart the frontend.
+DO NOT initialize another Next.js project.
+DO NOT replace the existing design system.
+DO NOT overwrite completed components.
+DO NOT delete working routes.
+
+STRICT FILE OWNERSHIP:
+
+You own ONLY:
+
+/frontend/**
+
+You must NEVER modify:
+
+/backend/**
+/README.md
+/01_Research/**
+/02_Data/**
+/03_Notebooks/**
+/04_Models/**
+/05_Dashboard/**
+/06_Reports/**
+/07_References/**
+
+You must not modify files owned by Agent 2.
+
+PROJECT OBJECTIVE:
+
+Complete the Royal Scout Intelligence 2027 interactive cricket
+scouting platform using the existing validated analytical results.
+
+TECHNOLOGY:
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Recharts
+- Lucide React
+
+PHASE 2 TASKS:
+
+TASK 1 — REVIEW PHASE 1
+
+Inspect:
+
+- FRONTEND_PHASE_1.md
+- Existing frontend folder structure.
+- Existing routes.
+- Existing reusable components.
+- Existing design tokens.
+- Existing API client preparation.
+
+Continue from the existing implementation.
+
+TASK 2 — API CONTRACT INTEGRATION
+
+Read the backend API contract:
+
+/backend/docs/API_CONTRACT.md
+
+This file is READ-ONLY for you.
+
+Do not modify backend files.
+
+Integrate the frontend with the actual documented backend endpoints.
+
+Implement:
+
+- API client.
+- Loading states.
+- Error handling.
+- Empty states.
+- Data fetching.
+- Search and filtering.
+- Refresh and retry behaviour.
+
+Do not invent API endpoints or response fields.
+
+If an endpoint is not yet implemented by Agent 2, document it
+as pending instead of fabricating production data.
+
+TASK 3 — LANDING PAGE
+
+Complete the landing page with:
+
+- Royal Scout Intelligence 2027 identity.
+- Project introduction.
+- Scouting objective.
+- IPL and T20I analysis context.
+- Navigation to the application modules.
+- Clear call-to-action.
+- Premium cricket analytics design.
+
+TASK 4 — EXECUTIVE DASHBOARD
+
+Build a professional overview containing:
+
+- Selected matches.
+- Analysed deliveries.
+- Eligible batters.
+- Eligible bowlers.
+- Top 10 batter overview.
+- Top 10 bowler overview.
+- Important project insights.
+
+Use actual API data.
+
+TASK 5 — BATTING INTELLIGENCE
+
+Build:
+
+- Top 10 batter ranking.
+- Pressure strike rate.
+- Pressure batting average.
+- Normal strike rate.
+- Strike-rate improvement.
+- Pressure balls.
+- Pressure matches.
+- Boundary contribution where supported by actual data.
+
+Provide meaningful charts and player-level filtering.
+
+TASK 6 — BOWLING INTELLIGENCE
+
+Build:
+
+- Top 10 bowler ranking.
+- Pressure wicket rate.
+- Pressure legal balls.
+- Pressure matches.
+- Wicket-performance indicators.
+- Bowling economy comparison only where the backend provides
+  validated or clearly labelled provisional data.
+
+Do not present provisional economy as fully validated.
+
+TASK 7 — PLAYER EXPLORER
+
+Implement:
+
+- Player search.
+- Batter/bowler filters.
+- Ranking filters.
+- Player listing.
+- Player detail navigation.
+
+TASK 8 — PLAYER COMPARISON
+
+Allow users to compare multiple players.
+
+For batters compare:
+
+- Pressure strike rate.
+- Pressure average.
+- Normal strike rate.
+- Strike-rate improvement.
+- Pressure balls.
+- Pressure matches.
+- Composite score.
+
+For bowlers compare:
+
+- Pressure wicket rate.
+- Pressure legal balls.
+- Pressure matches.
+- Composite score.
+- Supporting economy where available.
+
+Do not compare incompatible batter and bowler metrics.
+
+TASK 9 — INDIVIDUAL PLAYER PROFILE
+
+Create a detailed profile page containing:
+
+- Player identity.
+- Role.
+- Ranking.
+- Composite score.
+- Performance indicators.
+- Pressure sample information.
+- Supporting evidence.
+
+Use actual available fields only.
+
+TASK 10 — METHODOLOGY & EVIDENCE
+
+Display:
+
+- Pressure model.
+- Pressure categories.
+- Batter scoring weights.
+- Bowler scoring weights.
+- Eligibility thresholds.
+- Data overview.
+- Known limitations.
+
+Use the project's existing methodology.
+Do not change formulas or rankings.
+
+TASK 11 — UI QUALITY
+
+Maintain the premium Rajasthan Royals-inspired design.
+
+Colours:
+
+Pink: #E83E8C
+Light Blue: #55B7E8
+Dark Navy: #10172A
+White: #FFFFFF
+
+Requirements:
+
+- Consistent design.
+- Professional chart labels.
+- Readable tables.
+- Responsive layouts.
+- Proper tooltips.
+- Useful filters.
+- Accessible contrast.
+- No unnecessary animations.
+- No generic AI-generated template appearance.
+
+TASK 12 — RESPONSIVENESS
+
+Test:
+
+- 375px mobile.
+- 768px tablet.
+- 1440px desktop.
+
+TASK 13 — TESTING
+
+Verify:
+
+- Every route.
+- API integration.
+- Loading states.
+- Error states.
+- Search and filters.
+- Player comparisons.
+- Chart rendering.
+- TypeScript.
+- Production build.
+
+Remove temporary mock data from production paths.
+
+Do not display fabricated player statistics.
+
+PHASE 2 DOCUMENTATION:
+
+Update:
+
+/frontend/FRONTEND_PHASE_2.md
+
+Include:
+
+- Completed modules.
+- API endpoints integrated.
+- Components implemented.
+- Routes completed.
+- Testing results.
+- Remaining issues.
+
+FINAL RULES:
+
+Work ONLY inside /frontend/**.
+
+Do not modify backend files.
+
+Do not modify original analytical files.
+
+Do not restart Phase 1.
+
+Complete Phase 2 as a continuation of Phase 1.
