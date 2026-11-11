@@ -49,7 +49,7 @@ Thumbs.db
 # Vercel
 .vercel
 
-# Explicitly keep project zip files and deliverable folders as requested
-!*.zip
-!ROYAL_SCOUT_FINAL.zip
-!ROYAL_SCOUT_PHASE_13.zip
+# Archives & Deliverables (ignored from GitHub tracking)
+*.zip
+ROYAL_SCOUT_FINAL/
+ROYAL_SCOUT_PHASE_13/
